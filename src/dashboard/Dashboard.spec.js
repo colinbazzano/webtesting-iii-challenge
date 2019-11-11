@@ -15,4 +15,4 @@ test('default state is open and unlocked', () => {
 
     expect(queryByText(/open/i)).toBeTruthy();
     expect(queryByText(/unlocked/i)).toBeTruthy();
-})
+});
